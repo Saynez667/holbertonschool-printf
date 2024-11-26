@@ -12,6 +12,8 @@ int _printf(const char *format, ...)
 {
 va_list args;
 int printed_chars = 0;
+if (format == NULL)
+return (-1);
 va_start(args, format);
 while (*format)
 {
@@ -32,6 +34,8 @@ printed_chars++;
 else if (*format == 's')
 {
 char *str = va_arg(args, char*);
+if (str == NULL)
+str = "(null)";
 while (*str)
 {
 write(1, str++, 1);
