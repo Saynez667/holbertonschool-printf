@@ -14,6 +14,10 @@ va_list args;
 int printed_chars = 0;
 va_start(args, format);
 while (*format)
+if (format == NULL)
+{
+return (-1);
+}
 {
 if (*format != '%')
 {
