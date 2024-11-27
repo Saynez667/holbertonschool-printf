@@ -1,6 +1,21 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdarg.h>
+#include <unistd.h>
+#include "_putchar.c"
+/**
+*struct printf_list - Structure pour les spécificateurs de format
+*@specifieur: Le caractère spécificateur
+*@manager: Pointeur vers la fonction qui gère ce spécificateur
+*/
+typedef struct printf_list
+{
+char specifieur;
+int (*manager)(va_list);
+}printf_t;
 int _printf(const char *format, ...);
+int _putchar(char c);
+int print_char(va_list args);
+int print_string(va_list args);
+int print_percent(va_list args);
 #endif
