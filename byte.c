@@ -39,6 +39,11 @@ int print_percent(va_list args)
 (void)args;
 return (_putchar('%'));
 }
+/**
+*print_int - Imprime un entier
+*@args: Liste d'arguments contenant l'entier à imprimer
+*Return: Nombre de caractères imprimés
+*/
 int print_int(va_list args)
 {
 int n = va_arg(args, int);
@@ -56,6 +61,11 @@ count += print_int_recursive(num / 10);
 count += _putchar((num % 10) + '0');
 return (count);
 }
+/**
+*print_int_recursive - Imprime récursivement un entier non signé
+*@n: L'entier non signé à imprimer
+*Return: Nombre de caractères imprimés
+*/
 int print_int_recursive(unsigned int n)
 {
 int count = 0;
