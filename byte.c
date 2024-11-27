@@ -1,15 +1,8 @@
 #include "main.h"
 /*
-*Fichier: fonctions_impression.c
-*Description: Ce fichier contient des fonctions utilitaires pour l'impression
-*de différents types de données (caractère, chaîne, pourcentage)
-*d'une implémentation personnalisée de printf ou d'une fonction similaire.
-*Ces fonctions sont conçues pour être utilisées avec une liste d'arguments
-*variable (va_list) et retournent le nombre de caractères imprimés.
-* fonctions incluses:
-* - print_char: Imprime un seul caractère
-* - print_string: Imprime une chaîne de caractères
-* - print_percent: Imprime le caractère '%'
+* Fonctions d'impression pour une implémentation personnalisée de printf.
+* Inclut des fonctions pour imprimer un caractère, une chaîne et le symbole '%'.
+* Utilise va_list pour gérer les arguments variables.
 */
 int print_char(va_list args)
 {
