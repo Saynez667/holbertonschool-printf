@@ -6,7 +6,7 @@
 *d'une implémentation personnalisée de printf ou d'une fonction similaire.
 *Ces fonctions sont conçues pour être utilisées avec une liste d'arguments
 *variable (va_list) et retournent le nombre de caractères imprimés.
-* onctions incluses:
+* fonctions incluses:
 * - print_char: Imprime un seul caractère
 * - print_string: Imprime une chaîne de caractères
 * - print_percent: Imprime le caractère '%'
