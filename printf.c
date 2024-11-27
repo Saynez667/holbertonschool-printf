@@ -38,7 +38,7 @@ printed += _putchar('%');
 printed += _putchar(format[i]);
 }
 }
-if (format[i] != '%')
+else
 printed += _putchar(format[i]);
 i++;
 }
