@@ -39,22 +39,3 @@ int print_percent(va_list args)
 (void)args;
 return (_putchar('%'));
 }
-/**
-*print_pointer - Imprime une adresse mémoire
-*@args: Liste d'arguments contenant le pointeur à imprimer
-*Return: Nombre de caractères imprimés
-*/
-int print_pointer(va_list args)
-{void *ptr = va_arg(args, void *);
-char buffer[20];
-int count = 0;
-if (!ptr)
-return (print_string("(nil)"));
-sprintf(buffer, "%p", ptr);
-for (int i = 0; buffer[i] != '\0'; i++)
-{
-_putchar(buffer[i]);
-count++;
-}
-return (count);
-}
