@@ -2,7 +2,6 @@
 #define MAIN_H
 #include <stdarg.h>
 #include <unistd.h>
-#include "_putchar.c"
 /**
 *struct printf_list - Structure pour les spécificateurs de format
 *@specifieur: Le caractère spécificateur
@@ -14,7 +13,7 @@ char specifieur;
 int (*manager)(va_list);
 }printf_t;
 int _printf(const char *format, ...);
-int _putchar(char c);
+char _putchar(char c);
 int print_char(va_list args);
 int print_string(va_list args);
 int print_percent(va_list args);
