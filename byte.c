@@ -41,34 +41,26 @@ return (_putchar('%'));
 }
 int print_int(va_list args)
 {
-    int n = va_arg(args, int);
-    int count = 0;
-    unsigned int num;
-
-    if (n < 0)
-    {
-        count += _putchar('-');
-        num = -n;
-    }
-    else
-        num = n;
-
-    if (num / 10)
-        count += print_int_recursive(num / 10);
-
-    count += _putchar((num % 10) + '0');
-
-    return count;
+int n = va_arg(args, int);
+int count = 0;
+unsigned int num;
+if (n < 0)
+{
+count += _putchar('-');
+num = -n;
 }
-
+else
+num = n;
+if (num / 10)
+count += print_int_recursive(num / 10);
+count += _putchar((num % 10) + '0');
+return (count);
+}
 int print_int_recursive(unsigned int n)
 {
-    int count = 0;
-
-    if (n / 10)
-        count += print_int_recursive(n / 10);
-
-    count += _putchar((n % 10) + '0');
-
-    return count;
+int count = 0;
+if (n / 10)
+count += print_int_recursive(n / 10);
+count += _putchar((n % 10) + '0');
+return (count);
 }
