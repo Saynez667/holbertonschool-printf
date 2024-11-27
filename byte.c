@@ -1,8 +1,9 @@
 #include "main.h"
-/*
-* Fonctions d'impression pour une implémentation personnalisée de printf.
-* Inclut des fonctions pour imprimer un caractère, une chaîne et le symbole '%'.
-* Utilise va_list pour gérer les arguments variables.
+/**
+*print_char - Imprime un seul caractère
+*@args: Liste d'arguments contenant le caractère à imprimer
+*
+*Return: Nombre de caractères imprimés (toujours 1)
 */
 int print_char(va_list args)
 {
