@@ -2,6 +2,7 @@
 #define MAIN_H
 #include <stdarg.h>
 #include <unistd.h>
+#include <stdio.h>
 /**
 *struct printf_list - Structure pour les spécificateurs de format
 *@specifieur: Le caractère spécificateur

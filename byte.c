@@ -30,10 +30,9 @@ count++;
 return (count);
 }
 /**
-* print_percent - Imprime le caractère pourcentage
-* @args: Liste d'arguments (non utilisée)
-*
-* Return: Nombre de caractères imprimés (toujours 1)
+*print_percent - Imprime le caractère pourcentage
+*@args: Liste d'arguments (non utilisée)
+*Return: Nombre de caractères imprimés (toujours 1)
 */
 int print_percent(va_list args)
 {
