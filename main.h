@@ -11,7 +11,7 @@ typedef struct printf_list
 {
 char specifieur;
 int (*manager)(va_list);
-}printf_t;
+} printf_t;
 int _printf(const char *format, ...);
 char _putchar(char c);
 int print_char(va_list args);
