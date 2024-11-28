@@ -31,7 +31,10 @@ Specific Print Functions
 - print_int: Prints an integer.
 ## Compilation
 To compile the project, use:
--  gcc -Wall -Werror -Wextra -pedantic *.c -o printf
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic *.c -o printf
+```
 
 ![Capture d’écran 2024-11-28 104817](https://github.com/user-attachments/assets/8f57f962-7628-4aad-bae6-1a792a9a1a6e)
 
@@ -48,6 +51,18 @@ printf("Hello, c25 !\n");
 return (0);
 }
 ```
+```
+Hello, c25 !
+```
+## Man page
+
+the command to access my page is :
+
+```bash
+man /.man_3_printf
+```
+## Flow chart
+
 ## AUTHORS
-- yassin-info
-- Saynez667
+- [yassin-info](https://github.com/Yassin-info)
+- [Saynez667](https://github.com/Saynez667)
