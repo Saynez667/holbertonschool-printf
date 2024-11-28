@@ -48,3 +48,6 @@ printf("Hello, c25 !\n");
 return (0);
 }
 ```
+## AUTHORS
+- yassin-info
+- Saynez667
