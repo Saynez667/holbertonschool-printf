@@ -36,6 +36,7 @@ Imprime un entier.
 ## Compilation
 Pour compiler le projet, utilisez :
 -  gcc -Wall -Werror -Wextra -pedantic *.c -o printf
+![Capture d’écran 2024-11-28 104817](https://github.com/user-attachments/assets/8f57f962-7628-4aad-bae6-1a792a9a1a6e)
 
 ## Utilisation
 Incluez main.h dans votre programme et utilisez _printf comme vous le feriez avec printf.
