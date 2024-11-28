@@ -1,5 +1,6 @@
 # printf holberton
-![alt text](image.png)
+![ST-c_1x (2)](https://github.com/user-attachments/assets/a80f0aa5-ad1a-4fbc-ae7c-7e54aa2c176b)
+
 Ce projet est une implémentation simplifiée de la fonction printf standard en C. Ce projet gère les spécificateurs de format de base tels que %c, %s, %d, %i, et %%.
 Fonctionnalités
 Gestion des spécificateurs suivants :
