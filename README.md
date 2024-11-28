@@ -63,6 +63,8 @@ man /.man_3_printf
 ```
 ## Flow chart
 
+![Capture d'écran 2024-11-28 132922](https://github.com/user-attachments/assets/5e9d10ed-2f00-44a8-ae62-d5b036ebad91)
+
 ## AUTHORS
 - [yassin-info](https://github.com/Yassin-info)
 - [Saynez667](https://github.com/Saynez667)
